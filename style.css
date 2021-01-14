@@ -1,0 +1,52 @@
+/*
+Al cuerpo de la
+pagina se aplica el tama�o de fuente
+ */
+body{
+	font-size: 12px;
+}
+/**
+ * se aplica el ancho, margen centrado
+ * borde de un pixel con redondeado, y rellenado
+ * a la izquierda y derecha
+ */
+#Contenedor{
+	width: 300px;
+	margin: 50px auto;
+	background-color: gray;
+        border: 1px solid black;
+	height: 350px;
+	border-radius:8px;
+	padding: 2px 9px 0px 9px;
+}
+
+/**
+ * Aplicando al icono de usuario el color de fondo,
+ * rellenado de 20px y un redondeado de 120px en forma
+ * de un circulo
+ */
+.Icon span{
+      background: #A8A6A6;
+      padding: 20px;
+      border-radius: 120px;
+}
+/**
+ * Se aplica al contenedor madre un margen de tama�o 10px hacia la cabecera y pie,
+ * color de fuente blanco,un tama�o de fuente 50px y texto centrado.
+ */
+.Icon{
+     margin-top: 10px;
+     margin-bottom:10px; 
+     color: #FFF;
+     font-size: 50px;
+     text-align: center;
+}
+/**
+ * Se aplica al contenedor donde muestra en el pie
+ * la opci�n de olvidaste tu contrase�a?
+ */
+.opcioncontra{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
